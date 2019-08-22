@@ -1,0 +1,36 @@
+<html> 
+<head> 
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<script src="js/validate.js"></script>
+</head> 
+
+<body> 
+<div>
+	<h1> Registration Form </h1>		 
+	<form name="RegForm" action="/submit.php" onsubmit="return MyValidate()" method="post"> 
+		
+		<p>Name: <input type="text" size=65 name="Name"> </p><br>	 
+		<p>Address: <input type="text" size=65 name="Address"> </p><br> 
+		<p>E-mail: <input type="text" size=65 name="EMail"> </p><br> 
+		<p>Password: <input type="text" size=65 name="Password"> </p><br> 
+		<p>Telephone: <input type="text" size=65 name="Telephone"> </p><br> 
+			
+		<p>Select:
+			<select type="text" value="" name="Subject"> 
+				<option>Option 1</option> 
+				<option>Option 2</option> 
+				<option>Option 3</option> 
+				<option>Option 4</option> 
+				<option>Option 5</option> 
+			</select>
+		</p>
+			<br><br> 
+		<p>Comments: <textarea cols="55" name="Comment"> </textarea></p> 
+		<p>
+			<input type="submit" value="Send" name="Submit">	 
+			<input type="reset" value="Reset" name="Reset"> 
+		</p>		 
+	</form> 
+</div>
+</body> 
+</html> 

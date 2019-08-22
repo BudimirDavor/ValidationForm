@@ -1,0 +1,19 @@
+div 
+{ 
+	box-sizing: border-box; 
+	width: 100%; 
+	border: 100px solid black; 
+	float: left; 
+
+} 
+
+form 
+{										 
+	margin: 0 auto; 
+	width: 600px; 
+}
+
+h1
+{
+	text-align: center;
+}
